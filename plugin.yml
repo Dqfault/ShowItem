@@ -1,0 +1,19 @@
+name: ShowItem
+api: 3.19.2
+version: 1.0.0
+main: Dqfault\ShowItem\Main
+author: Dqfault (credit to TPE)
+
+commands:
+  showitem:
+    description: "Show off the item you're holding to everyone"
+
+permissions:
+
+  showitem.allow:
+    description: Allows players to brag using /showitem.
+    default: op
+
+  showitem.allow.enchants:
+    description: Allows players to show off their items with enchants on.
+    default: op
